@@ -1,0 +1,39 @@
+body {
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+button {
+    background-color: white;
+    color: black;
+    box-shadow: none;
+    outline: none;
+    border: none;
+    border-radius: 5%;
+}
+
+.infos {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+p {
+    color: white;
+    text-decoration: none;
+}
