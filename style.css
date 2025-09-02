@@ -49,9 +49,9 @@ button {
     }
 
     button {
-        width: 100%;
-        max-width: 250px;
-        padding: 10px 0;
+        width: auto;
+        max-width: 200px;
+        padding: 10px 20px;
     }
 }
 p {
