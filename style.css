@@ -27,6 +27,8 @@ button {
 }
 
 .infos {
+    display: flex;
+    flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
@@ -36,6 +38,19 @@ button {
     margin: 0 auto;
 }
 
+
+@media (max-width: 480px) {
+    .infos {
+        width: 95%;
+        padding: 10px;
+    }
+
+    button {
+        width: 100%;
+        max-width: 250px;
+        padding: 10px 0;
+    }
+}
 p {
     color: white;
     text-decoration: none;
